@@ -1,23 +1,29 @@
 /* =========================================================
    ✦ EDITABLE SITE SETTINGS
-   CHANGE THIS SECTION FOR A NEW CLIENT.
+   PEMZZY D'LUXE
 ========================================================= */
 
 const SITE = {
 
-  brand: "HOUSE OF NUR",
+  brand: "PEMZZY D'LUXE",
 
-  slogan: "Everything thread is a light with elegance.",
+  slogan: "Designed around you. Defined by elegance.",
 
-  whatsapp: "2349060386830",
+  whatsapp: "2349028214052",
+
+  instagram: "pemzzy_luxury",
+
+  location: "Abuja, Federal Capital Territory, Nigeria",
+
+  hours: "Open 24 hours",
 
   assetPath: "assets/",
 
+  // Replace these filenames if your repository uses different names.
   heroImage: "hero_image.webp",
 
   atelierImage: "dress-08.jpg",
 
-  // These eight images appear in the scrolling fashion gallery.
   marquee: [
     "dress-01.jpg",
     "dress-02.jpg",
@@ -29,157 +35,126 @@ const SITE = {
     "dress-13.jpg"
   ],
 
-  // Replace example prices with the actual prices.
-  // Each product image must match its filename in the assets folder.
   products: [
     {
       id: 1,
-      name: "The Signature",
-      category: "Signature Collection",
+      name: "Signature Piece 01",
+      category: "Bespoke Fashion",
       image: "dress-01.jpg",
       price: "Price on request",
-      description:
-        "A distinctive piece for the woman who appreciates thoughtful details and effortless elegance."
+      description: "A distinctive design tailored to express your individual style."
     },
-
     {
       id: 2,
-      name: "The Muse",
-      category: "Contemporary Elegance",
+      name: "Signature Piece 02",
+      category: "Contemporary Wear",
       image: "dress-02.jpg",
       price: "Price on request",
-      description:
-        "A refined style designed to make an impression while keeping your individuality at the centre."
+      description: "A refined fashion piece created with your personal style in mind."
     },
-
     {
       id: 3,
-      name: "The Statement",
-      category: "Statement Pieces",
+      name: "Signature Piece 03",
+      category: "Occasion Wear",
       image: "dress-03.jpg",
       price: "Price on request",
-      description:
-        "A standout look for moments when you want your style to speak before you do."
+      description: "A distinctive look for celebrations and special occasions."
     },
-
     {
       id: 4,
-      name: "The Classic",
-      category: "Timeless Collection",
+      name: "Signature Piece 04",
+      category: "Elegant Essentials",
       image: "dress-04.jpg",
       price: "Price on request",
-      description:
-        "A timeless fashion choice celebrating beautiful silhouettes and carefully considered details."
+      description: "An elegant design that brings together comfort and individuality."
     },
-
     {
       id: 5,
-      name: "The Radiance",
-      category: "Occasion Wear",
+      name: "Signature Piece 05",
+      category: "Aso-Ebi",
       image: "dress-05.jpg",
       price: "Price on request",
-      description:
-        "A graceful piece for celebrations, special occasions, and unforgettable appearances."
+      description: "A style for celebrations, gatherings, and memorable occasions."
     },
-
     {
       id: 6,
-      name: "The Allure",
-      category: "Signature Collection",
+      name: "Signature Piece 06",
+      category: "Bespoke Fashion",
       image: "dress-06.jpg",
       price: "Price on request",
-      description:
-        "A feminine design with a distinctive presence, made for a woman who owns her style."
+      description: "A carefully considered design shaped around your fashion vision."
     },
-
     {
       id: 7,
-      name: "The Grace",
-      category: "Elegant Essentials",
+      name: "Signature Piece 07",
+      category: "Office Wear",
       image: "dress-07.jpg",
       price: "Price on request",
-      description:
-        "An elegant choice for a polished wardrobe, with beauty in the details."
+      description: "A polished style for a confident and professional appearance."
     },
-
     {
       id: 8,
-      name: "The NUR Edit",
-      category: "Curated Style",
+      name: "Signature Piece 08",
+      category: "Contemporary Wear",
       image: "dress-08.jpg",
       price: "Price on request",
-      description:
-        "A curated House Of NUR look that brings together individuality and timeless femininity."
+      description: "A distinctive piece that celebrates your individual taste."
     },
-
     {
       id: 9,
-      name: "The Empress",
-      category: "Statement Pieces",
+      name: "Signature Piece 09",
+      category: "Occasion Wear",
       image: "dress-09.jpg",
       price: "Price on request",
-      description:
-        "A confident, expressive look for the woman who enjoys making an elegant entrance."
+      description: "A beautiful option for special moments and celebrations."
     },
-
     {
       id: 10,
-      name: "The Blossom",
-      category: "Feminine Collection",
+      name: "Signature Piece 10",
+      category: "Bespoke Fashion",
       image: "dress-10.jpg",
       price: "Price on request",
-      description:
-        "A feminine design celebrating softness, confidence, and the beauty of personal style."
+      description: "A personalised style designed around your preferences."
     },
-
     {
       id: 11,
-      name: "The Icon",
-      category: "Signature Collection",
+      name: "Signature Piece 11",
+      category: "Elegant Essentials",
       image: "dress-11.jpg",
       price: "Price on request",
-      description:
-        "A memorable style created for women who like their wardrobe to express who they are."
+      description: "A sophisticated piece for a wardrobe that reflects your personality."
     },
-
     {
       id: 12,
-      name: "The Elegance",
-      category: "Timeless Collection",
+      name: "Signature Piece 12",
+      category: "Contemporary Wear",
       image: "dress-12.jpg",
       price: "Price on request",
-      description:
-        "A considered design inspired by graceful styling and an appreciation for fine details."
+      description: "A considered design with an emphasis on style and individuality."
     },
-
     {
       id: 13,
-      name: "The Belle",
-      category: "Occasion Wear",
+      name: "Signature Piece 13",
+      category: "Aso-Ebi",
       image: "dress-13.jpg",
       price: "Price on request",
-      description:
-        "A beautiful option for special moments, celebrations, and your most memorable days."
+      description: "A celebration-ready look shaped around your preferred aesthetic."
     },
-
     {
       id: 14,
-      name: "The Royal",
-      category: "Statement Pieces",
+      name: "Signature Piece 14",
+      category: "Office Wear",
       image: "dress-14.jpg",
       price: "Price on request",
-      description:
-        "A distinctive piece for women who appreciate a confident look with an elegant finish."
+      description: "A refined design for professional settings and everyday elegance."
     },
-
     {
       id: 15,
-      name: "The Evermore",
-      category: "Signature Collection",
+      name: "Signature Piece 15",
+      category: "Special Occasions",
       image: "dress-15.jpg",
       price: "Price on request",
-      description:
-        "A lasting addition to your wardrobe, inspired by elegance that never needs to shout."
+      description: "A personalised fashion choice for an occasion worth remembering."
     }
   ]
 
